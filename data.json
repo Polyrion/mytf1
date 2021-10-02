@@ -1,0 +1,117 @@
+{
+	"one": {
+		"id": 23,
+		"title": "Fugeuse",
+		"entitle": "prostituée par amour",
+		"description": "Le terrible engrenage ne fait que \n commencer...",
+		"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130782/MyTF1%20Test%20Project/Fugueuse-TF1-Exceptionnel-impressionnant-La-prestation-de-Michael-Youn-fait-l-unanimite_xulrlr.jpg"
+	},
+	"lives": [
+		{
+			"id": 1,
+			"title": "Vendredi tout est permis",
+			"chanel": "tf1",
+			"category": "divertissement",
+			"trend": false,
+			"distribution": "TF1",
+			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633131014/MyTF1%20Test%20Project/vignette-portrait-a4c19d-ea45cd-0_1x_mby71q.webp"
+		},
+		{
+			"id": 2,
+			"title": "Londres police judiciere",
+			"chanel": "TMC",
+			"category": "série policière",
+			"trend": false,
+			"distribution": "TF1",
+			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633131053/MyTF1%20Test%20Project/vignette-portrait-0154a5-e78387-0_1x_eskqyj.jpg"
+		},
+		{
+			"id": 3,
+			"title": "Busby Girls",
+			"chanel": "TFX",
+			"category": "comedie",
+			"trend": false,
+			"distribution": "TF1",
+			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633131101/MyTF1%20Test%20Project/vignette-portrait-3f2945-ed66af-0_1x_ckxzzs.jpg"
+		}
+	],
+	"catalog": [
+		{
+			"id": 1,
+			"title": "Koh-Lanta",
+			"chanel": "tf1",
+			"category": "divertissement",
+			"available_replays": 2,
+			"release_date": "2021",
+			"available_seasons": 5,
+			"current_season": 5,
+			"quality": ["HD", "FHD", "4K"],
+			"trend": true,
+			"description": "Des candidats échouent sur une île déserte pour y survivre dans les conditions de rescapés. Séparés en deux équipes, et pourvus du minimum vital, ils devront cohabiter pour assurer leur survie mais aussi triompher des épreuves.",
+			"distribution": "TF1",
+			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130897/MyTF1%20Test%20Project/kohlantanew_ywrdsy.jpg",
+			"min_poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130922/MyTF1%20Test%20Project/vignette-portrait-de7e88-4fc0cb-0_1x_iavbtb.webp",
+			"episodes": [
+				{
+					"title": "Koh-Lanta la légende du 21 septembre 2021 - Emission N°4",
+					"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633132380/MyTF1%20Test%20Project/koh-lanta-la-legende-du-21-septembre-2021-episode-4-28534657-1632220203-ff4f39-299410-0_1x_teujnc.jpg"
+				},
+				{
+					"title": "Koh-Lanta la légende du 21 septembre 2021 - Emission N°4",
+					"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633132368/MyTF1%20Test%20Project/koh-lanta-la-legende-du-28-septembre-2021-episode-5-62589967-1632837793-5afa9e-7c9aaa-0_1x_x908sy.jpg"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "L'arme Fatal",
+			"chanel": "tf1",
+			"category": "série policière",
+			"available_replays": 10,
+			"release_date": "2021",
+			"available_seasons": 3,
+			"current_season": 3,
+			"quality": ["HD", "FHD", "4K"],
+			"trend": true,
+			"description": "",
+			"distribution": "TF1",
+			"poster": "",
+			"min_poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130766/MyTF1%20Test%20Project/vignette-portrait-larme-fatale-0caddc-488acd-0_1x_qm50m0.jpg",
+			"episodes": []
+		},
+		{
+			"id": 3,
+			"title": "Good Doctor",
+			"chanel": "tf1",
+			"category": "série & fiction",
+			"available_replays": 10,
+			"release_date": "2021",
+			"available_seasons": 4,
+			"current_season": 4,
+			"quality": ["HD", "FHD", "4K"],
+			"trend": true,
+			"description": "",
+			"distribution": "TF1",
+			"poster": "",
+			"min_poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130959/MyTF1%20Test%20Project/vignette-portrait-good-doctor-saison-4-170103-3bb065-0_1x_cnsoq0.jpg",
+			"episodes": []
+		},
+		{
+			"id": 3,
+			"title": "Danse avec les stars",
+			"chanel": "tf1",
+			"category": "divertissement",
+			"available_replays": 3,
+			"release_date": "2021",
+			"available_seasons": 3,
+			"current_season": 3,
+			"quality": ["HD", "FHD", "4K"],
+			"trend": true,
+			"description": "",
+			"distribution": "TF1",
+			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130859/MyTF1%20Test%20Project/B9728308966Z.1_20210923115952_000_2BGVNIUF5NE.1-0_nzgukw.png",
+			"min_poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130810/MyTF1%20Test%20Project/vignette-portrait-dals-jury-2021-b8fd65-56fb01-0_1x_uqe8rf.jpg",
+			"episodes": []
+		}
+	]
+}
