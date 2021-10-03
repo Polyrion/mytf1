@@ -8,6 +8,8 @@ Its a Application build on React Native
 
 I just made it for fun to test where can i go with React native and React native web.
 
+!!!!!! Don't work on android for now but coming soon !!!!!!
+
 ## Presentation :
 
 ![MyTF1 ScreenShot](https://res.cloudinary.com/dlpalbban/image/upload/v1633278969/MyTF1%20Test%20Project/Capture_d_%C3%A9cran_2021-10-03_%C3%A0_18.24.12_owfzah.png)
