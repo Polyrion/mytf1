@@ -65,12 +65,16 @@ const CustomTabBar = ({state, descriptors, navigation}: BottomTabBarProps) => {
 
 const styles = StyleSheet.create({
 	tabBar: {
-		height: 80,
+		height: 40,
 		width: '100%',
 		backgroundColor: Colors.primary,
 	},
 	tabContainer: {
 		flex: 1,
+		position: 'absolute',
+		top: -35,
+		left: 0,
+		right: 0,
 		flexDirection: 'row',
 		justifyContent: 'space-between',
 		alignItems: 'center',

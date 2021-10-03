@@ -6,7 +6,7 @@ import {
 	BottomTabBarProps,
 } from '@react-navigation/bottom-tabs';
 
-import {Home} from '.';
+import {Home, Show} from '.';
 import CustomTabBar from '@components/CustomTabBar';
 
 const AppStack = createStackNavigator();
@@ -63,6 +63,7 @@ const AppNavigator = () => {
 				headerShown: false,
 			}}>
 			<AppStack.Screen name="Tabs" component={TabsNavigator} />
+			<AppStack.Screen name="Show" component={Show} />
 		</AppStack.Navigator>
 	);
 };

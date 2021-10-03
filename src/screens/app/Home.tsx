@@ -10,6 +10,7 @@ import {
 	Dimensions,
 } from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
+import {useNavigation} from '@react-navigation/native';
 
 import {Colors} from '@theme/';
 import LiveIcon from '@components/LiveIcon';
@@ -18,9 +19,9 @@ import Catalog from '@components/Catalog';
 import Data from '../../../data.json';
 
 const {height, width} = Dimensions.get('window');
-//{ITEMS.map(createItemRow)}
 
 export default function Home() {
+	const navigation = useNavigation();
 	const scrollRef = useRef(null);
 	const [data] = useState<any>(Data);
 	const {one, catalog, lives} = data;
@@ -67,13 +68,13 @@ export default function Home() {
 						<Text style={styles.sectionTitle}>En direct sur nos chaînes</Text>
 						<LiveIcon />
 					</View>
-					<Catalog data={lives} />
+					<Catalog data={lives} navigation={navigation} />
 				</View>
 				<View style={styles.sectionContainer}>
 					<View style={styles.sectionTitleContainer}>
 						<Text style={styles.sectionTitle}>Tendances actuelles</Text>
 					</View>
-					<Catalog data={catalog} />
+					<Catalog data={catalog} navigation={navigation} />
 				</View>
 			</ScrollView>
 		</SafeAreaView>

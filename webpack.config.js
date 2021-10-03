@@ -65,16 +65,6 @@ const imageLoaderConfiguration = {
 	},
 };
 
-const fontsLoaderConfiguration = {
-	test: /\.ttf$/,
-	use: {
-		loader: 'url-loader',
-		options: {
-			name: '[name].[ext]',
-		},
-	},
-};
-
 module.exports = {
 	entry: {
 		app: path.join(__dirname, 'index.web.js'),
@@ -95,7 +85,6 @@ module.exports = {
 			babelLoaderConfiguration,
 			imageLoaderConfiguration,
 			svgLoaderConfiguration,
-			fontsLoaderConfiguration,
 		],
 	},
 	plugins: [

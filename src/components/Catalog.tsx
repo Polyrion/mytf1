@@ -9,18 +9,19 @@ import {
 	Platform,
 } from 'react-native';
 
-import {Live, Catalog as CatalogType} from '@types/data';
+import {Live, Catalog as CatalogType} from '../types/data';
 
 interface Props {
 	data: Live[] | CatalogType[];
+	navigation: any;
 }
 
 const {height, width} = Dimensions.get('window');
 
-const Catalog = ({data}: Props) => {
-	const renderItem = ({item}: Live | CatalogType) => {
+const Catalog = ({data, navigation}: Props) => {
+	const renderItem = ({item}: any) => {
 		return (
-			<Pressable onPress={() => console.log('item', item)}>
+			<Pressable onPress={() => navigation.navigate('Show', {data: item})}>
 				<View
 					style={[
 						styles.showContainer,

@@ -12,8 +12,12 @@
 			"title": "Vendredi tout est permis",
 			"chanel": "tf1",
 			"category": "divertissement",
+			"quality": ["HD", "FHD", "4K"],
 			"trend": false,
+			"new": true,
 			"distribution": "TF1",
+			"episodes": [],
+			"distribution_logo": "https://res.cloudinary.com/dlpalbban/image/upload/v1633267739/MyTF1%20Test%20Project/TF1_logo_2013_pfxfqu.png",
 			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633131014/MyTF1%20Test%20Project/vignette-portrait-a4c19d-ea45cd-0_1x_mby71q.webp"
 		},
 		{
@@ -21,8 +25,12 @@
 			"title": "Londres police judiciere",
 			"chanel": "TMC",
 			"category": "série policière",
+			"quality": ["HD", "FHD", "4K"],
 			"trend": false,
+			"new": true,
 			"distribution": "TF1",
+			"episodes": [],
+			"distribution_logo": "https://res.cloudinary.com/dlpalbban/image/upload/v1633267739/MyTF1%20Test%20Project/TF1_logo_2013_pfxfqu.png",
 			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633131053/MyTF1%20Test%20Project/vignette-portrait-0154a5-e78387-0_1x_eskqyj.jpg"
 		},
 		{
@@ -30,8 +38,12 @@
 			"title": "Busby Girls",
 			"chanel": "TFX",
 			"category": "comedie",
+			"quality": ["HD", "FHD", "4K"],
 			"trend": false,
+			"new": true,
 			"distribution": "TF1",
+			"episodes": [],
+			"distribution_logo": "https://res.cloudinary.com/dlpalbban/image/upload/v1633267739/MyTF1%20Test%20Project/TF1_logo_2013_pfxfqu.png",
 			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633131101/MyTF1%20Test%20Project/vignette-portrait-3f2945-ed66af-0_1x_ckxzzs.jpg"
 		}
 	],
@@ -47,8 +59,11 @@
 			"current_season": 5,
 			"quality": ["HD", "FHD", "4K"],
 			"trend": true,
+			"new": true,
 			"description": "Des candidats échouent sur une île déserte pour y survivre dans les conditions de rescapés. Séparés en deux équipes, et pourvus du minimum vital, ils devront cohabiter pour assurer leur survie mais aussi triompher des épreuves.",
 			"distribution": "TF1",
+			"distribution_logo": "https://res.cloudinary.com/dlpalbban/image/upload/v1633267739/MyTF1%20Test%20Project/TF1_logo_2013_pfxfqu.png",
+			"trailer": "https://res.cloudinary.com/dlpalbban/video/upload/v1633266286/MyTF1%20Test%20Project/Bande_annonce_-_Koh-Lanta_La_l%C3%A9gende_kf5htc.mp4",
 			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130897/MyTF1%20Test%20Project/kohlantanew_ywrdsy.jpg",
 			"min_poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130922/MyTF1%20Test%20Project/vignette-portrait-de7e88-4fc0cb-0_1x_iavbtb.webp",
 			"episodes": [
@@ -73,9 +88,11 @@
 			"current_season": 3,
 			"quality": ["HD", "FHD", "4K"],
 			"trend": true,
-			"description": "",
+			"new": true,
+			"description": "Roger Murtaugh, un policier vétéran cardiaque fait équipe avec Martin Riggs, ancien seal, dans les rues de Los Angeles. Le duo, bien qu'improbable, est efficace mais leurs aventures finissent souvent par de nombreux dégâts.",
 			"distribution": "TF1",
-			"poster": "",
+			"distribution_logo": "https://res.cloudinary.com/dlpalbban/image/upload/v1633267739/MyTF1%20Test%20Project/TF1_logo_2013_pfxfqu.png",
+			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633277583/MyTF1%20Test%20Project/arme-fatale-mardi_ykmgo3.jpg",
 			"min_poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130766/MyTF1%20Test%20Project/vignette-portrait-larme-fatale-0caddc-488acd-0_1x_qm50m0.jpg",
 			"episodes": []
 		},
@@ -90,9 +107,11 @@
 			"current_season": 4,
 			"quality": ["HD", "FHD", "4K"],
 			"trend": true,
-			"description": "",
+			"new": true,
+			"description": "A la tête du prestigieux hôpital Bonaventure de San José, le Dr Aaron Glassman a recruté son protégé, Shaun Murphy, un jeune chirurgien surdoué atteint du syndrome d'Asperger. Le jour J, il se heurte à l'hostilité du conseil d'administration.",
 			"distribution": "TF1",
-			"poster": "",
+			"distribution_logo": "https://res.cloudinary.com/dlpalbban/image/upload/v1633267739/MyTF1%20Test%20Project/TF1_logo_2013_pfxfqu.png",
+			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633277749/MyTF1%20Test%20Project/1376408_bebb8l.jpg",
 			"min_poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130959/MyTF1%20Test%20Project/vignette-portrait-good-doctor-saison-4-170103-3bb065-0_1x_cnsoq0.jpg",
 			"episodes": []
 		},
@@ -109,6 +128,7 @@
 			"trend": true,
 			"description": "",
 			"distribution": "TF1",
+			"distribution_logo": "https://res.cloudinary.com/dlpalbban/image/upload/v1633267739/MyTF1%20Test%20Project/TF1_logo_2013_pfxfqu.png",
 			"poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130859/MyTF1%20Test%20Project/B9728308966Z.1_20210923115952_000_2BGVNIUF5NE.1-0_nzgukw.png",
 			"min_poster": "https://res.cloudinary.com/dlpalbban/image/upload/v1633130810/MyTF1%20Test%20Project/vignette-portrait-dals-jury-2021-b8fd65-56fb01-0_1x_uqe8rf.jpg",
 			"episodes": []

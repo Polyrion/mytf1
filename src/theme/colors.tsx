@@ -5,4 +5,5 @@ export default {
 	white: 'rgba(255, 255, 255, 1)',
 	brokenWhite: 'rgba(242,242,242,1)',
 	danger: 'rgba(238,72,72,1)',
+	success: 'rgba(39,179,103,1)',
 };
