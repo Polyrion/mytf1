@@ -1,5 +1,6 @@
 package com.mytf1;
 
+import com.brentvatne.react.ReactVideoPackage;
 import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
@@ -32,6 +33,14 @@ public class MainApplication extends Application implements ReactApplication {
         @Override
         protected String getJSMainModuleName() {
           return "index";
+        }
+
+        @Override
+        protected List<ReactPackage> getPackages() {
+            return Arrays.asList(
+                    new MainReactPackage(),
+                    new ReactVideoPackage()
+            );
         }
       };
 
